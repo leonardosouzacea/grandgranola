@@ -1,1 +1,21 @@
 // Add your custom CSS here.
+.top-bar {
+    display: none;
+}
+
+.header {
+    background-color: #000;
+    &__row--centralized-logo {
+        display: flex;
+        justify-content: space-between;
+        .header__buttons {
+            display: flex;
+        }
+    }
+    &__toggler-icon {
+        color: #fff;
+        &+span {
+            color: #fff;
+        }
+    }
+}
