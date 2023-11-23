@@ -5,10 +5,10 @@
   },
   "installments": {
     "show": true,
-    "text": "Parcele sem juros"
+    "text": "a partir de 10 unidades"
   },
   "exchange": {
-    "show": true,
+    "show": false,
     "text": "Não gostou? A primeira troca é gratuita"
   },
   "promo": {

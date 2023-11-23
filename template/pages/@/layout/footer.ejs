@@ -5,6 +5,15 @@ const contacts = _.cms('contacts') || {}
 const themeCustom = _.settings.theme.custom || ''
 %>
 
+<div class="app-fab app-fab--right" style="z-index: 1">
+  <div class="app-fab__container app-fab__container--vertical">
+                      <div class="app-fab__item app-fab__item--whatsapp">
+              <a href="https://api.whatsapp.com/send?l=pt_br&amp;phone=<%= contacts.whatsapp.replace(/\D/g, '') %>" rel="noreferrer" target="_blank" class="link">
+                                              <img src="/img/uploads/whatsapp.svg" alt="whatsapp" class="img">
+                                      </a>
+          </div>
+                          </div>
+</div>
 <footer class="footer py-3 py-lg-4 py-xl-5">
   <div class="container">
     <div class="row">

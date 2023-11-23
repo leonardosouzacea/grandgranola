@@ -60,6 +60,12 @@
       "limit": 12,
       "page": 1
     },
+    {"type": "info-bar", "enabled": true},
+    {
+      "type": "text-description",
+      "title": "Pequenas fornadas.Todos os dias.",
+      "description": "Acreditamos que comida de verdade, feita com ingredientes naturais, tem mais sabor e é muito melhor para nossa saúde e do planeta"
+    },
     {
       "type": "page-title",
       "title": "Loja demo da E-Com Plus",
