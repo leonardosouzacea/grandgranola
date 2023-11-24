@@ -1,10 +1,12 @@
 {
   "shipping": {
     "show": true,
-    "text": "Entregamos para todo o Brasil"
+    "text": "para todo o Brasil",
+    "title": "Entrega garantida"
   },
   "installments": {
     "show": true,
+    "title": "Pague parcelado",
     "text": "a partir de 10 unidades"
   },
   "exchange": {
@@ -13,6 +15,7 @@
   },
   "promo": {
     "show": true,
-    "text": "Diferentes promoções ao longo do ano!"
+    "title": "Compra 100% segura",
+    "text": "seus dados protegidos"
   }
 }

@@ -19,6 +19,33 @@
           "img": "/img/uploads/prancheta-2.webp",
           "alt": "Cupom",
           "mobile_img": "/img/uploads/prancheta-1.webp"
+        },
+        {
+          "img": "/img/uploads/desk-golden.png",
+          "link": "",
+          "alt": "Golden",
+          "mobile_img": "/img/uploads/gg-banners-mobile-new-0004-golden.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/desk-salted.png",
+          "alt": "Salted",
+          "mobile_img": "/img/uploads/gg-banners-mobile-new-0003-salted.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/desk-banana.png",
+          "alt": "Banana",
+          "mobile_img": "/img/uploads/gg-banners-mobile-new-0005-banana.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/gg-banners-website-0001-grand-pack.webp",
+          "alt": "Kit com 3",
+          "mobile_img": "gg-banners-website-mobile-0001-grand-pack.webp"
         }
       ]
     },
@@ -65,6 +92,16 @@
       "type": "text-description",
       "title": "Pequenas fornadas.Todos os dias.",
       "description": "Acreditamos que comida de verdade, feita com ingredientes naturais, tem mais sabor e é muito melhor para nossa saúde e do planeta"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/granolas-1.webp",
+          "link": "",
+          "alt": "Artesanal"
+        }
+      ]
     },
     {
       "type": "page-title",

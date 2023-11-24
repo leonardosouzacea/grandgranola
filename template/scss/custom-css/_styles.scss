@@ -199,3 +199,31 @@
       }
     }
   }
+.banner-slider img:hover {
+  transform: scale(1.13);
+}
+.banner-slider img {
+  transition: transform 4s ease;
+}
+
+.products-carousel__item:hover {
+  border: 1px solid #000;
+}
+
+.info-bar__item {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .rounded-icon {
+    padding-top: unset !important;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+
+.info-bar__text {
+  margin-top: -10px;
+}

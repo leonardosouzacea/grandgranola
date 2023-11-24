@@ -5,7 +5,7 @@ const barCols = []
   ['shipping', 'shipping-fast'],
   ['installments', 'credit-card'],
   ['exchange', 'exchange'],
-  ['promo', 'percent']
+  ['promo', 'lock']
 ].forEach(([prop, icon]) => {
   if (info[prop] && info[prop].show) {
     const { link, title, text } = info[prop]
@@ -27,7 +27,9 @@ const barCols = []
               <div class="ml-2 ml-md-3">
                 <% if(title) { %>
                   <div class="info-bar__title">
-                    <%= title %>
+                    <h3>
+                      <%= title %>
+                    </h3>
                   </div>
                 <% } %>
                 <div class="info-bar__text">
