@@ -51,6 +51,7 @@
     },
     {
       "type": "banners-grid",
+      "id": 1,
       "banners": [
         {
           "img": "/img/uploads/100-artesanal.webp",
@@ -95,6 +96,7 @@
     },
     {
       "type": "banners-grid",
+      "id": 2,
       "banners": [
         {
           "img": "/img/uploads/granolas-1.webp",
@@ -102,6 +104,11 @@
           "alt": "Artesanal"
         }
       ]
+    },
+    {
+      "type": "text-description",
+      "title": "O que Dizem Sobre Nós",
+      "description": ""
     },
     {
       "type": "page-title",
