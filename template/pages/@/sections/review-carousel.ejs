@@ -48,6 +48,11 @@ if (reviews && reviews.length) {
                 <% if (texto && texto.length) { %>
                   <h5><%= texto %></h5>
                 <%} %>
+                <div data-slot="rating">
+                <div class="rating mb-2">
+                  <div class="rating__stars"></div>
+                </div>
+              </div>
             </div>
             </li>
           <% }) %>

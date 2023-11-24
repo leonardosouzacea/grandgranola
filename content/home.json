@@ -91,7 +91,7 @@
     {"type": "info-bar", "enabled": true},
     {
       "type": "text-description",
-      "title": "Pequenas fornadas.Todos os dias.",
+      "title": "Pequenas fornadas.<br>Todos os dias.",
       "description": "Acreditamos que comida de verdade, feita com ingredientes naturais, tem mais sabor e é muito melhor para nossa saúde e do planeta"
     },
     {
@@ -111,9 +111,65 @@
       "description": ""
     },
     {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+      "type": "review-carousel",
+      "autoplay": 9000,
+      "title": "Depoimentos de clientes reais, certificados pelo Google",
+      "reviews": [
+        {
+          "nome": "Allan Benício",
+          "texto": "Simplesmente a granola mais saborosa que ja comi! Vale muito a pena!"
+        },
+        {
+          "nome": "Renato Abucham",
+          "texto": "Espetacular!!! Melhor do mercado."
+        },
+        {
+          "nome": "Mari Albuquerque",
+          "texto": "Eu já comprei diversas vezes. É envolvente, saborosa, crocante. A qualidade dela é ÓTIMA. Continuarei comprando 😁"
+        },
+        {
+          "nome": "Henrique Silva",
+          "texto": "Super indico. Comprei em jm dia e chegou no outro. Entrega super rápida. Quanto ao produto é de excelente qualidade. Deliciosa."
+        },
+        {
+          "nome": "Jaqueline Oliveira",
+          "texto": "Bom atendimento e entrega rápida !"
+        }
+      ]
+    },
+    {
+      "type": "text-description",
+      "id": 3,
+      "title": "Ofertas Especiais",
+      "description": "Aonde você pode comprar além do nosso site"
+    },
+    {
+      "type": "banners-grid",
+      "id": 3,
+      "banners": [
+        {
+          "img": "/img/uploads/santaluzia.webp",
+          "link": "",
+          "alt": "Santa Luzia"
+        },
+        {
+          "img": "/img/uploads/varanda-1.webp",
+          "alt": "Varanda"
+        },
+        {
+          "img": "/img/uploads/emporio-sp.webp",
+          "link": "",
+          "alt": "Emporio SP"
+        },
+        {
+          "img": "/img/uploads/emporio-fasano-1.webp",
+          "alt": "Emporio Fasano"
+        },
+        {
+          "img": "/img/uploads/carinthia.webp",
+          "alt": "Carintia"
+        }
+      ]
     }
   ]
 }

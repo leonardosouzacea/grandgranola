@@ -231,3 +231,50 @@
 .banners-grid.opt-2 .col-12 {
   text-align: center;
 }
+
+#custom-block h3 .html-clearfix {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 400; 
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.rating__stars {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 125px;
+  position: relative;
+  text-shadow: 0 1px 0 #a2a2a2;
+} 
+.rating__stars::before { 
+  content: '★★★★★';
+  opacity: .3;
+}
+.rating__stars::after {
+  color: gold;
+  content: '★★★★★';
+  text-shadow: 0 1px 0 #ab5414;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  left: 0;
+  top:0;
+  width: 96.5%;
+  overflow: hidden;
+}
+
+#custom-block {
+  margin: 0 auto;
+}
+
+.banners-grid.opt-3 {
+  width: 100% !important;
+  .col-lg-3 {
+    flex: 0 0 20% !important;
+    max-width: 20% !important; 
+  }
+}
+ 
