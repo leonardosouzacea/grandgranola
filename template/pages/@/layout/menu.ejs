@@ -2,6 +2,7 @@
 // load menu options and contacts from content
 const menu = _.cms('menu') || {}
 const contacts = _.cms('contacts') || {}
+const { path } = _.route
 
 // some social networks handled by contacts
 const networksWithColors = [
@@ -39,6 +40,7 @@ if (mainCategories) {
 
 <aside id="menu" class="menu shadow">
   <nav class="accordion" id="accordion-menu">
+
     <button
       class="menu__btn menu__btn--close btn"
       type="button"
@@ -47,6 +49,12 @@ if (mainCategories) {
     >
       <i class="i-times"></i>
     </button>
+
+    <a href="/pages/quem-somos" class="menu__item">Quem Somos</a>
+    <%- path === '/' ? '<a href="" class="menu__item">Produtos</a>' : '' %>
+    <a href="/golden" class="menu__item">Grand Granola Golden</a>
+    <a href="/salted" class="menu__item">Grand Granola Salted</a>
+    <a href="/banana" class="menu__item">Grand Granola Banana</a>
 
     <% for (const slug in categoryParents) { %>
       <% if (categoryParents.hasOwnProperty(slug)) { %>
@@ -88,6 +96,11 @@ if (mainCategories) {
           <% } %>
 
           <div class="menu__list">
+            <a href="/pages/quem-somos" class="menu__item">Quem Somos</a>
+            <a href="/" class="menu__item">Produtos</a>
+            <a href="/golden" class="menu__item">Grand Granola Golden</a>
+            <a href="/salted" class="menu__item">Grand Granola Salted</a>
+            <a href="/banana" class="menu__item">Grand Granola Banana</a>
             <% categoryParents[slug].forEach((subcategory, index) => { %>
               <% const hasSubmenu = Array.isArray(categoryParents[subcategory.slug]) %>
               <a
