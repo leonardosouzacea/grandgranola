@@ -118,48 +118,8 @@ const { width, height } = _.tryImageSize('/img/uploads/logo-preto-1.webp')
           </div>
         </div>
       <% } %>
+        
 
-      <% if (footer.links_2.list_categories || footer.links_2.list.find(({ url }) => url)) { %>
-        <div class="col-12 col-sm-6 col-lg col-xl-auto px-xl-4">
-          <a
-            class="footer__title"
-            data-toggle="collapse"
-            href="#footer-categories"
-            role="button"
-            aria-expanded="false"
-            aria-controls="footer-categories"
-          >
-            <%= footer.links_2.title || _.dictionary('categories') %>
-          </a>
-          <div class="collapse" id="footer-categories">
-            <% if (footer.links_2.list_categories) { %>
-              <ul class="footer__links">
-                <% _.categories.forEach(({ name, slug, parent }) => { %>
-                  <% if (!parent) { %>
-                    <li>
-                      <i class="i-chevron-right"></i>
-                      <a href="/<%= slug %>">
-                        <%= name %>
-                      </a>
-                    </li>
-                  <% } %>
-                <% }) %>
-              </ul>
-            <% } else { %>
-              <ul class="footer__links">
-                <% footer.links_2.list.forEach(({ url, text }) => { %>
-                  <li>
-                    <i class="i-chevron-right"></i>
-                    <a href="<%= url %>">
-                      <%= text %>
-                    </a>
-                  </li>
-                <% }) %>
-              </ul>
-            <% } %>
-          </div>
-        </div>
-      <% } %>
 
       <div class="col-12 col-xl order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>first">
 
