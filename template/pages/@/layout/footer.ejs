@@ -3,6 +3,8 @@
 const footer = _.cms('footer') || {}
 const contacts = _.cms('contacts') || {}
 const themeCustom = _.settings.theme.custom || ''
+const { path } = _.route 
+const { width, height } = _.tryImageSize('/img/uploads/logo-preto-1.webp')
 %>
 
 <div class="app-fab app-fab--right" style="z-index: 1">
@@ -73,12 +75,6 @@ const themeCustom = _.settings.theme.custom || ''
               </li>
             <% } %>
           </ul>
-
-          <% if (footer.contacts.socials) { %>
-            <p class="footer__social">
-              <%- await include('@/layout/inc/networks', { _, contacts }) %>
-            </p>
-          <% } %>
         </div>
       </div>
 
@@ -166,54 +162,82 @@ const themeCustom = _.settings.theme.custom || ''
       <% } %>
 
       <div class="col-12 col-xl order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>first">
-        <h2 class="footer__title footer__store">
-          <%= footer.description.title || _.settings.name %>
-        </h2>
-        <p><%- footer.description.text || _.settings.description %></p>
 
-        <div class="mt-4 mb-3">
-          <p class="footer__payment-methods">
-            <% Object.keys(footer.payment_methods).forEach(method => { %>
-              <% if (footer.payment_methods[method]) { %>
-                <i class="pay-icon pay-icon--<%= method %>"></i>
-              <% } %>
-            <% }) %>
-          </p>
-          <div class="footer__stamps">
-            <%- await include(`@/sections/stamps`, { _, opt: { stamps: footer.stamps } }) %>
+        
+  <img
+    id="logo"
+    class="header__logo footer__logo"
+    src="/img/uploads/logo-preto-1.webp"
+    alt="Logo"
+    <% if (width) { %>
+      width="<%= width %>"
+      height="<%= height %>"
+    <% } %>
+  >
+
+        <% if (path === '/') { %>
+          <h1 class="footer__title footer__store">
+            Grand Granola | Sabores deliciosos, crocantes e feitos com muito carinho, eles chegaram até você.
+          </h1>
+        <% } else { %>
+          <h2 class="footer__title footer__store">
+            <%= footer.description.title || _.settings.name %>
+          </h2>
+        <% } %>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="container" style="display: flex; margin-top: 1rem">
+        
+        <div class="col-12 col-sm-7 text-right" id="selos_seguranca">
+          <big>Selos e certificados</big>
+          <div class="container-fluid">
+            <div class="footer__stamps">
+              <%- await include(`@/sections/stamps`, { _, opt: { stamps: footer.stamps } }) %>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col-12 col-sm-5" id="selos_pagamentos" style="text-align: right">
+          <big>Formas de pagamento</big>
+          <div class="mt-4 mb-3">
+            <p class="footer__payment-methods">
+              <% Object.keys(footer.payment_methods).forEach(method => { %>
+                <% if (footer.payment_methods[method]) { %>
+                  <i class="pay-icon pay-icon--<%= method %>"></i>
+                <% } %>
+              <% }) %>
+            </p>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="footer__credits">
-      <span>
-        <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
-      </span>
-      <% if (themeCustom === 'ecom-beauty') { %>
-        <div class="ecom-credits-container">
-          <div class="ecom-credits">
-            <a href="https://e-com.plus" target="_blank" rel="noopener">
-              <img
-                src="https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/ecom-credits-white.png"
+  </div> 
+  
+  <div class="row" id="social">
+    <% if (footer.contacts.socials) { %>
+      <p class="footer__social">
+        <%- await include('@/layout/inc/networks', { _, contacts }) %>
+      </p>
+    <% } %>
+  </div>
+  <div class="footer__credits container">
+    <span>
+      <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
+    </span>
+      <div class="ecom-credits-container">
+        <div class="ecom-credits">
+          <a href="https://e-com.plus" target="_blank" rel="noopener">
+            <img
+                src="https://ecom.nyc3.digitaloceanspaces.com/brand/plus/198x43.png"
                 alt="E-Com Plus"
-                width="125.42"
-                height="20"
-              >
-            </a>
-          </div>
+                width="92"
+                height="19.98"
+            >
+          </a>
         </div>
-      <% } %>
-      <button
-        id="go-to-top"
-        class="btn btn-primary ml-3"
-        type="button"
-        aria-label="<%= _.dictionary('goToTop') %>"
-      >
-        <i class="i-chevron-up"></i>
-      </button>
-    </div>
-  </div>  
+      </div>
+  </div>
 </footer>
 
-<%- await include('@/layout/inc/ecom-credits') %>

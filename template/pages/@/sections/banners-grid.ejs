@@ -1,10 +1,13 @@
-<% if (Array.isArray(opt.banners) && opt.banners.length) { %>
+<% if (Array.isArray(opt.banners) && opt.banners.length) { 
+  %>
   <% const colSize = Math.ceil(12 / opt.banners.length) %>
   <div class="banners-grid opt-<%= opt.id %>">
     <div class="container">
       <div class="row">
-        <% for (let i = 0; i < opt.banners.length; i++) { %>
-          <div class="col-12 col-lg-<%= colSize %> mb-3 mb-lg-0">
+        <% for (let i = 0; i < opt.banners.length; i++) { 
+          const background = opt.insta ? `background-image: url(/img/uploads${opt.banners[i].img})` : ''
+          %>
+          <div class="col-12 col-lg-<%= colSize %> mb-3 mb-lg-0" style="<%= background %>">
             <%- await include('@/sections/inc/banner', { _, opt: opt.banners[i] }) %>
           </div>
         <% } %>
