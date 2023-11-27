@@ -80,6 +80,7 @@
     },
     {
       "type": "collection-shelf",
+      "id": "home",
       "shuffle": true,
       "collection_id": null,
       "sort": "offers",
