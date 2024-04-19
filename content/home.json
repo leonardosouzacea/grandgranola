@@ -11,7 +11,9 @@
           "img": "/img/uploads/gg-banners-website-0000-frete-gratis.webp",
           "link": "",
           "alt": "Frete grátis",
-          "mobile_img": "/img/uploads/gg-banners-website-mobile-0000-frete-gratis.webp"
+          "mobile_img": "/img/uploads/gg-banners-website-mobile-0000-frete-gratis.webp",
+          "start": "",
+          "end": ""
         },
         {
           "start": "",
@@ -24,7 +26,9 @@
           "img": "/img/uploads/desk-golden.png",
           "link": "",
           "alt": "Golden",
-          "mobile_img": "/img/uploads/gg-banners-mobile-new-0004-golden.webp"
+          "mobile_img": "/img/uploads/gg-banners-mobile-new-0004-golden.webp",
+          "start": "",
+          "end": ""
         },
         {
           "start": "",
@@ -79,17 +83,20 @@
       "description": "Granolas saudáveis artesanais, com receitas alternativas tostadas todos os dias com as melhores especiarias do mercado, direto para sua casa."
     },
     {
+      "page": 1,
+      "title": "",
+      "shuffle": true,
+      "headless": true,
       "type": "collection-shelf",
       "id": "home",
-      "shuffle": true,
-      "collection_id": null,
-      "sort": "offers",
-      "title": "",
-      "headless": true,
       "limit": 12,
-      "page": 1
+      "collection_id": "6622eaa14e9909015f18b5ab:collections:Granolas:/granolas",
+      "sort": "offers"
     },
-    {"type": "info-bar", "enabled": true},
+    {
+      "type": "info-bar",
+      "enabled": true
+    },
     {
       "type": "text-description",
       "title": "Pequenas fornadas.<br>Todos os dias.",
