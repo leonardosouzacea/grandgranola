@@ -174,8 +174,9 @@
   }
   .product-card__name {
     font-size: 26px !important;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
+    letter-spacing: -3px;
   }
 
   .product-card__prices {
@@ -408,4 +409,24 @@
   .header__logo {
     max-width: 142px;
   }
+}
+
+..glide__bullet {
+    border-radius: .4rem;
+    background: #89919f30;
+    height: .8rem;
+    margin-left: .4rem;
+    width: .8rem;
+}
+
+.glide .glide__bullet--active {
+    background-color: #ffffff;
+}
+
+.prices__installments{
+    display: none;
+}
+
+.html-clearfix{
+    margin-bottom: 0px;
 }
