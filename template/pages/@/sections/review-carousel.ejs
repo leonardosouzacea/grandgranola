@@ -34,6 +34,14 @@ if (reviews && reviews.length) {
           <% reviews.forEach(({ nome, cidade, img, texto }) => { %>
             <li class="glide__slide brands-carousel__item">
               <div class="depoimento-box">
+                <div data-slot="rating">
+                  <div class="rating mb-2">
+                    <div class="rating__stars"></div>
+                  </div>
+                </div>
+                <% if (texto && texto.length) { %>
+                  <h5><%= texto %></h5>
+                <%} %>
                 <div class="title-client-avk">
                   <% if (img && img.startsWith('http')) { %>
                     <img src="<%= img %>" alt="<%= nome %>" loading="lazy" width="50" height="50">
@@ -45,15 +53,12 @@ if (reviews && reviews.length) {
                     <small><%= cidade %></small> 
                   <%} %>           
                 </div>
-                <% if (texto && texto.length) { %>
-                  <h5><%= texto %></h5>
-                <%} %>
                 <div data-slot="rating">
-                <div class="rating mb-2">
-                  <div class="rating__stars"></div>
+                  <div class="rating mb-2">
+                    <div class="rating__stars"></div>
+                  </div>
                 </div>
               </div>
-            </div>
             </li>
           <% }) %>
         </ul>
