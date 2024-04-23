@@ -42,9 +42,7 @@
     text-align: center;
     padding: 20px;
   }
-  .title-client-avk {
-    text-align: left;
-  }
+  
   .title-client-avk img {
     border-radius: 200px;
     max-height: 70px;
@@ -430,3 +428,7 @@
 .info-bar__item {
    text-transform: inherit;
 }
+
+.title-client-avk {
+    text-align: left; !important;
+  }
