@@ -16,7 +16,7 @@ if (reviews && reviews.length) {
   })
   %>
 
-  <section class="brands-carousel container reviews col-12">
+  <section class="brands-carousel container reviews">
     <% if (title) { %>
       <h4 class="products-carousel__title"><%= title %></h4>
     <% } %>
@@ -40,7 +40,7 @@ if (reviews && reviews.length) {
                   </div>
                 </div>
                 <% if (texto && texto.length) { %>
-                  <p style="text-align: left;"><%= texto %></p>
+                  <p><%= texto %></p>
                 <%} %>
                 <div class="title-client-avk">
                   <% if (img && img.startsWith('http')) { %>

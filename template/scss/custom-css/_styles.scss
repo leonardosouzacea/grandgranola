@@ -122,7 +122,7 @@
     width: auto!important;
     padding: 0 10px;
     @media(min-width: 992px) {
-      width: 100% !important;
+      width: 50% !important;
       margin-right: 10px;
       margin-bottom: 0;
     }
@@ -133,7 +133,7 @@
     -moz-appearance:textfield; /* Firefox */
     height: 36px;
     padding: 0;
-    width: 100%;
+    width: 80%;
     border: 0!important;
     text-align:center
   }
@@ -436,10 +436,4 @@
 
 .pay-icon{
     filter: grayscale(1);
-}
-
-@media(max-width: 767px) {
-  .banner{
-    width: 100%;
-  } 
 }
