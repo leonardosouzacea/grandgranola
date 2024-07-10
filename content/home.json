@@ -180,8 +180,10 @@
           "link": "https://www.delivery.hortisabor.com.br/"
         },
         {
-          "img": "/img/uploads/carinthia.webp",
-          "alt": "Carintia"
+          "img": "/img/uploads/img_0123.png",
+          "alt": "Quitanda",
+          "link": "http://www.quitanda.com/",
+          "mobile_img": "/img/uploads/img_0123.png"
         }
       ]
     },
