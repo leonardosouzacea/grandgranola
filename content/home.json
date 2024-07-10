@@ -168,9 +168,10 @@
           "link": "https://www.varanda.com.br/"
         },
         {
-          "img": "/img/uploads/emporio-sp.webp",
-          "link": "",
-          "alt": "Emporio SP"
+          "img": "/img/uploads/img_0122.png",
+          "link": "https://www.varanda.com.br/",
+          "alt": "Emporio SP",
+          "mobile_img": "/img/uploads/img_0122.png"
         },
         {
           "img": "/img/uploads/img_0119.png",
