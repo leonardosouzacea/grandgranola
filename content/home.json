@@ -161,8 +161,10 @@
           "alt": "Santa Luzia"
         },
         {
-          "img": "/img/uploads/varanda-1.webp",
-          "alt": "Varanda"
+          "img": "/img/uploads/img_0120.png",
+          "alt": "Varanda",
+          "mobile_img": "/img/uploads/img_0120.png",
+          "link": "https://www.varanda.com.br/"
         },
         {
           "img": "/img/uploads/emporio-sp.webp",
