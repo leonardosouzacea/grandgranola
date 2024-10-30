@@ -169,7 +169,7 @@
         },
         {
           "img": "/img/uploads/img_0122.png",
-          "link": "http://emporiumsaopaulo.com.br/",
+          "link": "",
           "alt": "Emporio SP",
           "mobile_img": "/img/uploads/img_2746.png"
         },
@@ -177,12 +177,12 @@
           "img": "/img/uploads/img_0119.png",
           "alt": "Hortisabor",
           "mobile_img": "/img/uploads/img_2747.png",
-          "link": "https://www.delivery.hortisabor.com.br/"
+          "link": ""
         },
         {
           "img": "/img/uploads/img_0123.png",
           "alt": "Quitanda",
-          "link": "http://www.quitanda.com/",
+          "link": "",
           "mobile_img": "/img/uploads/img_2748.png"
         }
       ]
