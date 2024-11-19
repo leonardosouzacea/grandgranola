@@ -146,12 +146,6 @@
       ]
     },
     {
-      "type": "text-description",
-      "id": 3,
-      "title": "Ofertas Especiais",
-      "description": "Aonde você pode comprar além do nosso site"
-    },
-    {
       "type": "responsive-banner",
       "img": "/img/uploads/gg-quem-somos-0001-comp-de-camada-2-1.webp"
     },
