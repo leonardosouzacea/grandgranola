@@ -152,42 +152,6 @@
       "description": "Aonde você pode comprar além do nosso site"
     },
     {
-      "type": "banners-grid",
-      "id": 3,
-      "banners": [
-        {
-          "img": "/img/uploads/img_0825.png",
-          "link": "",
-          "alt": "Santa Luzia",
-          "mobile_img": "/img/uploads/img_0825.png"
-        },
-        {
-          "img": "/img/uploads/img_0120.png",
-          "alt": "Varanda",
-          "mobile_img": "/img/uploads/img_0827.png",
-          "link": ""
-        },
-        {
-          "img": "/img/uploads/img_0122.png",
-          "link": "",
-          "alt": "Emporio SP",
-          "mobile_img": "/img/uploads/empo.png"
-        },
-        {
-          "img": "/img/uploads/img_0119.png",
-          "alt": "Hortisabor",
-          "mobile_img": "/img/uploads/img_2747.png",
-          "link": ""
-        },
-        {
-          "img": "/img/uploads/img_0123.png",
-          "alt": "Quitanda",
-          "link": "",
-          "mobile_img": "/img/uploads/img_2748.png"
-        }
-      ]
-    },
-    {
       "type": "responsive-banner",
       "img": "/img/uploads/gg-quem-somos-0001-comp-de-camada-2-1.webp"
     },
