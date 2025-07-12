@@ -93,31 +93,6 @@
       "id": 4,
       "title": "Delicie-se saudavelmente",
       "description": "Siga-nos em nossa jornada de sustentabilidade."
-    },
-    {
-      "type": "banners-grid",
-      "id": 4,
-      "insta": true,
-      "banners": [
-        {
-          "img": "/img/uploads/post-instagram-gran-granola-1.webp",
-          "link": "",
-          "alt": "Instagram post 1"
-        },
-        {
-          "img": "/img/uploads/whpugai8jcqfmgdhde03oupikkz21nah9pw6.webp",
-          "alt": "Instagram post 2"
-        },
-        {
-          "img": "/img/uploads/iinxcqhlyvm60unsucorkidbj5gytoqhtdzy.webp",
-          "link": "",
-          "alt": "Instagram post 3"
-        },
-        {
-          "img": "/img/uploads/6c5vnojvshfrsu80esogolejedc5vflrnq6s.webp",
-          "alt": "Instagram post 4"
-        }
-      ]
     }
   ]
 }
