@@ -8,21 +8,6 @@
       "full_width": true,
       "slides": [
         {
-          "img": "/img/uploads/img_0273.png",
-          "link": "",
-          "alt": "Frete grátis",
-          "mobile_img": "/img/uploads/img_0275.png",
-          "start": "",
-          "end": ""
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/gg-banners-website-0000-frete-gratis.webp",
-          "alt": "Cupom",
-          "mobile_img": "/img/uploads/gg-banners-website-mobile-0000-frete-gratis.webp"
-        },
-        {
           "img": "/img/uploads/desk-golden.png",
           "link": "",
           "alt": "Golden",
@@ -40,9 +25,17 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/desk-banana.png",
-          "alt": "Banana",
-          "mobile_img": "/img/uploads/img_0285.jpeg"
+          "img": "/img/uploads/gg-banners-website-0000-frete-gratis.webp",
+          "alt": "Cupom",
+          "mobile_img": "/img/uploads/gg-banners-website-mobile-0000-frete-gratis.webp"
+        },
+        {
+          "img": "/img/uploads/img_0273.png",
+          "link": "",
+          "alt": "Frete grátis",
+          "mobile_img": "/img/uploads/img_0275.png",
+          "start": "",
+          "end": ""
         },
         {
           "start": "",
@@ -50,6 +43,13 @@
           "img": "/img/uploads/gg-banners-website-0001-grand-pack.webp",
           "alt": "Kit com 3",
           "mobile_img": "/img/uploads/img_0124.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/desk-banana.png",
+          "alt": "Banana",
+          "mobile_img": "/img/uploads/img_0285.jpeg"
         }
       ]
     },
