@@ -1,12 +1,12 @@
 {
   "marketing_stripe": {
     "text": "",
-    "link": ""
+    "link": "",
+    "background": "#ffffff",
+    "color": "#000000"
   },
   "contacts_stripe": {
-    "pages": [
-
-    ],
+    "pages": [],
     "phone_wpp": false,
     "socials": false
   },
