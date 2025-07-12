@@ -55,26 +55,6 @@
     },
     {
       "type": "text-description",
-      "title": "Delicie-se saudavelmente",
-      "description": "Granolas saudáveis artesanais, com receitas alternativas tostadas todos os dias com as melhores especiarias do mercado, direto para sua casa."
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
-    },
-    {
-      "page": 1,
-      "title": "",
-      "shuffle": true,
-      "headless": true,
-      "type": "collection-shelf",
-      "id": "home",
-      "limit": 12,
-      "collection_id": "6622eaa14e9909015f18b5ab:collections:Granolas:/granolas",
-      "sort": "offers"
-    },
-    {
-      "type": "text-description",
       "title": "Pequenas fornadas.<br>Todos os dias.",
       "description": "Acreditamos que comida de verdade, feita com ingredientes naturais, tem mais sabor e é muito melhor para nossa saúde e do planeta"
     },
@@ -90,9 +70,19 @@
       ]
     },
     {
-      "type": "text-description",
-      "title": "O que dizem sobre nós",
-      "description": ""
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
+      "page": 1,
+      "title": "",
+      "shuffle": true,
+      "headless": true,
+      "type": "collection-shelf",
+      "id": "home",
+      "limit": 12,
+      "collection_id": "6622eaa14e9909015f18b5ab:collections:Granolas:/granolas",
+      "sort": "offers"
     },
     {
       "type": "responsive-banner",
