@@ -59,6 +59,10 @@
       "description": "Granolas saudáveis artesanais, com receitas alternativas tostadas todos os dias com as melhores especiarias do mercado, direto para sua casa."
     },
     {
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
       "page": 1,
       "title": "",
       "shuffle": true,
@@ -68,10 +72,6 @@
       "limit": 12,
       "collection_id": "6622eaa14e9909015f18b5ab:collections:Granolas:/granolas",
       "sort": "offers"
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
     },
     {
       "type": "text-description",
@@ -93,33 +93,6 @@
       "type": "text-description",
       "title": "O que dizem sobre nós",
       "description": ""
-    },
-    {
-      "type": "review-carousel",
-      "autoplay": 9000,
-      "title": " ",
-      "reviews": [
-        {
-          "nome": "Allan Benício",
-          "texto": "Simplesmente a granola mais saborosa que ja comi! Vale muito a pena!"
-        },
-        {
-          "nome": "Renato Abucham",
-          "texto": "Espetacular!!! Melhor do mercado."
-        },
-        {
-          "nome": "Mari Albuquerque",
-          "texto": "Eu já comprei diversas vezes. É envolvente, saborosa, crocante. A qualidade dela é ÓTIMA. Continuarei comprando 😁"
-        },
-        {
-          "nome": "Henrique Silva",
-          "texto": "Super indico. Comprei em jm dia e chegou no outro. Entrega super rápida. Quanto ao produto é de excelente qualidade. Deliciosa."
-        },
-        {
-          "nome": "Jaqueline Oliveira",
-          "texto": "Bom atendimento e entrega rápida !"
-        }
-      ]
     },
     {
       "type": "responsive-banner",
