@@ -1,26 +1,26 @@
 {
-  "store_id": 51477,
-  "name": "grandgranola",
   "domain": "grandgranola.com.br",
-  "short_name": "grandgranola",
-  "description": "grandgranola",
-  "primary_color": "#222831",
-  "secondary_color": "#393e46",
-  "bg_color": "#ffffff",
+  "currency_symbol": "R$",
+  "primary_color": "#ffffff",
   "theme": {
     "bootswatch": "_",
-    "custom": "_"
+    "custom": "clean-white"
   },
-  "logo": "/img/uploads/grand-granola-logo-1.webp",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "bg_color": "#ffffff",
+  "repository": "ecomplus-stores/grandgranola",
+  "logo": "/img/uploads/grand-granola-logo-2.png",
+  "name": "grandgranola",
+  "short_name": "grandgranola",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
-  "country_code": "BR",
-  "repository": "ecomplus-stores/grandgranola",
+  "mini_logo": "",
+  "font_family": "_",
+  "favicon": "/img/uploads/favicon.png",
   "icons_font": "_",
-  "font_family": "_"
+  "country_code": "BR",
+  "secondary_color": "#ffffff",
+  "icon": "/img/icon.png",
+  "store_id": 51477,
+  "description": "Grand Granola",
+  "large_icon": "/img/large-icon.png"
 }
