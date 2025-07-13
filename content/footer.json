@@ -15,7 +15,7 @@
   },
   "contacts": {
     "title": "Fale Conosco",
-    "phone_wpp": true,
+    "phone_wpp": false,
     "socials": true,
     "email": true,
     "address": true
