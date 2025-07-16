@@ -5,7 +5,7 @@
     {
       "type": "banner-slider",
       "autoplay": 0,
-      "full_width": true,
+      "full_width": false,
       "slides": [
         {
           "img": "/img/uploads/desk-golden.png",
@@ -87,12 +87,6 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/gg-quem-somos-0001-comp-de-camada-2-1.webp"
-    },
-    {
-      "type": "text-description",
-      "id": 4,
-      "title": "Delicie-se saudavelmente",
-      "description": "Siga-nos em nossa jornada de sustentabilidade."
     }
   ]
 }
