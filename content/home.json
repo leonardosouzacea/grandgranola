@@ -71,7 +71,7 @@
     },
     {
       "type": "info-bar",
-      "enabled": false
+      "enabled": true
     },
     {
       "page": 1,
