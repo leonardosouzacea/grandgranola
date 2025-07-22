@@ -2,20 +2,24 @@
   "shipping": {
     "show": true,
     "text": "para todo o Brasil",
-    "title": "Entrega garantida"
+    "title": "Entrega garantida",
+    "link": "#"
   },
   "installments": {
     "show": true,
     "title": "Pague parcelado",
-    "text": "a partir de 10 unidades"
+    "text": "a partir de 10 unidades",
+    "link": "#"
   },
   "exchange": {
     "show": false,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "text": "Não gostou? A primeira troca é gratuita",
+    "link": "#"
   },
   "promo": {
     "show": true,
     "title": "Compra 100% segura",
-    "text": "seus dados protegidos"
+    "text": "seus dados protegidos",
+    "link": "#"
   }
 }
