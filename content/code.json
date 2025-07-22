@@ -1,5 +1,5 @@
 {
   "css": "",
-  "html_head": "",
+  "html_head": "<script>\ndocument.addEventListener('DOMContentLoaded', function () {\n  const userImg = document.querySelector('#user-button img');\n  if (userImg) {\n    userImg.src = '/img/user-avatar.png'; // atualize conforme seu caminho real\n  }\n});\n</script>",
   "html_body": ""
 }
