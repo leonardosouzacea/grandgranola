@@ -46,7 +46,7 @@ const { width, height } = _.tryImageSize('/img/uploads/logo-preto-1.webp')
                 </li>
               <% } %>
               <% if (contacts.phone) { %>
-                <li>
+                <li style="color: #000 !important;">
                   <span class="footer__list-icon">
                     <i class="i-phone"></i>
                   </span>
@@ -62,7 +62,7 @@ const { width, height } = _.tryImageSize('/img/uploads/logo-preto-1.webp')
             <% } %>
             <% if (footer.contacts.email) { %>
               <li>
-                <a href="mailto:<%= contacts.email %>" target="_blank" rel="noopener">
+                <a href="mailto:<%= contacts.email %>" target="_blank" rel="noopener" style="color: #000 !important;">
                   <%= contacts.email %>
                 </a>
               </li>
